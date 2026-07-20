@@ -34,8 +34,8 @@
     "status": "🟡 Muy probable",
     "confidence": 85,
     "specs": {
-      "Potencia Máxima": "130 kW (174 hp)",
-      "Torque Máximo": "300 Nm",
+      "Potencia Máxima": "160 kW (214 hp / 215 CV)",
+      "Torque Máximo": "330 Nm",
       "Refrigeración": "Aceite integrado",
       "Voltaje Nominal": "384 V"
     },
