@@ -14,7 +14,7 @@
       "Alimentación": "Inyección Electrónica Multipunto (MPI)",
       "Relación de Compresión": "15.5:1 (Geométrica)",
       "Antidetonante": "EGR refrigerada por líquido",
-      "Potencia": "75 kW (101 hp) @ 5200 rpm",
+      "Potencia": "70 kW (93 CV / 94 hp) @ 5200 rpm",
       "Torque": "135 Nm @ 4000 rpm"
     },
     "description": "Motor de gasolina diseñado específicamente para sistemas híbridos de la plataforma DE-i. Opera en ciclo Atkinson variable, donde la ECU ajusta continuamente el cierre de válvulas de admisión mediante el sistema DVVT.",
