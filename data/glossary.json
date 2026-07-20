@@ -1,0 +1,62 @@
+[
+  {
+    "term": "ADAS",
+    "definition": "Advanced Driver Assistance Systems. Sistemas electrónicos que ayudan en la conducción, tales como el frenado de emergencia autónomo, control de crucero adaptativo y alerta de cambio de carril."
+  },
+  {
+    "term": "BMS",
+    "definition": "Battery Management System. Unidad electrónica que monitoriza y gestiona las variables de seguridad de la batería de alta tensión (temperatura, balanceo de celdas, corriente, SOC y SOH)."
+  },
+  {
+    "term": "DHT",
+    "definition": "Dedicated Hybrid Transmission. Transmisión diseñada específicamente para vehículos híbridos, que integra mecánicamente motores eléctricos y engranajes de acoplamiento."
+  },
+  {
+    "term": "DVVT",
+    "definition": "Dual Variable Valve Timing. Distribución variable doble. Sistema que permite cambiar los ángulos de apertura de las válvulas de admisión y escape mecánicamente controlado por la ECU."
+  },
+  {
+    "term": "EGR",
+    "definition": "Exhaust Gas Recirculation. Recirculación de Gases de Escape. Sistema que introduce gases quemados de vuelta al cilindro para enfriar la cámara y reducir la formación de óxidos de nitrógeno (NOx)."
+  },
+  {
+    "term": "EPC",
+    "definition": "Electronic Parts Catalog. Catálogo oficial de repuestos y despieces de fábrica con números de pieza OEM."
+  },
+  {
+    "term": "EPS",
+    "definition": "Electric Power Steering. Dirección asistida mediante un motor eléctrico acoplado a la columna o cremallera de dirección."
+  },
+  {
+    "term": "LFP",
+    "definition": "Fosfato de Hierro y Litio. Química de batería síncrona muy estable, segura y con larga vida útil de ciclos de carga, sin necesidad de cobalto."
+  },
+  {
+    "term": "MPI",
+    "definition": "Multi-Point Injection. Inyección electrónica multipunto indirecta. Inyecta combustible en el colector de admisión antes de las válvulas de admisión."
+  },
+  {
+    "term": "OBC",
+    "definition": "On-Board Charger. Cargador embarcado que convierte la corriente alterna de la red domiciliaria (AC) en corriente continua (DC) para recargar la batería de alta tensión."
+  },
+  {
+    "term": "OTA",
+    "definition": "Over-The-Air. Sistema que permite la actualización inalámbrica del software y firmware de las ECUs del vehículo a través de internet."
+  },
+  {
+    "term": "PCU",
+    "definition": "Power Control Unit. Unidad de Control de Potencia que integra los inversores y convertidores de voltaje del tren de potencia híbrido."
+  },
+  {
+    "term": "PHEV",
+    "definition": "Plug-in Hybrid Electric Vehicle. Vehículo Híbrido Enchufable, que posee tanto un motor térmico como tracción eléctrica con batería de gran capacidad recargable desde el exterior."
+  },
+  {
+    "term": "VCU",
+    "definition": "Vehicle Control Unit. La ECU principal de control del vehículo que toma decisiones sobre el flujo de energía, modos de conducción y coordinación del tren motriz."
+  },
+  {
+    "term": "V2L",
+    "definition": "Vehicle-to-Load. Tecnología de carga bidireccional que permite utilizar la batería de alta tensión del vehículo para alimentar electrodomésticos externos de corriente alterna (220V)."
+  }
+]

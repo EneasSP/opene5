@@ -1,0 +1,30 @@
+[
+  {
+    "date": "Julio 2026",
+    "type": "milestone",
+    "title": "Ingeniería Inversa del F31A y DVVT",
+    "description": "Se confirma el uso de Dual VVT continuo en el motor SERES F31A del DFSK E5 Plus, estableciendo el funcionamiento de ciclo Atkinson variable dinámico mediante software en lugar de levas fijas.",
+    "completed": true
+  },
+  {
+    "date": "Julio 2026",
+    "type": "discovery",
+    "title": "Arquitectura de Baja Tensión (12V) y Chasis",
+    "description": "Documentación de la red eléctrica de 12V y el chasis (suspensión delantera MacPherson, trasera Multi-Link de 3 brazos, frenos de disco ventilados/sólidos).",
+    "completed": true
+  },
+  {
+    "date": "Agosto 2026",
+    "type": "planned",
+    "title": "Catálogo de Repuestos (EPC) y Números OEM",
+    "description": "Conseguir acceso al portal oficial de repuestos de DFSK / Dongfeng Sokon para documentar números de parte oficiales de los filtros, correas, fluidos y pastillas.",
+    "completed": false
+  },
+  {
+    "date": "Septiembre 2026",
+    "type": "planned",
+    "title": "Inspección OBD2 del Vehículo Real",
+    "description": "Realizar lecturas de los PIDs de la VCU, PCU y BMS utilizando escáner OBD2 profesional durante la entrega del vehículo.",
+    "completed": false
+  }
+]

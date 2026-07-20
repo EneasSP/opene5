@@ -1,0 +1,108 @@
+[
+  {
+    "id": "F31A",
+    "name": "Motor Térmico F31A",
+    "type": "Motor de combustión interna (ICE)",
+    "manufacturer": "Chongqing Sokon / SERES",
+    "status": "🟢 Confirmado",
+    "confidence": 98,
+    "specs": {
+      "Cilindrada": "1498 cc",
+      "Configuración": "4 cilindros en línea, DOHC, 16 válvulas",
+      "Ciclo": "Atkinson variable continuo",
+      "Distribución": "DVVT (Dual Variable Valve Timing)",
+      "Alimentación": "Inyección Electrónica Multipunto (MPI)",
+      "Relación de Compresión": "15.5:1 (Geométrica)",
+      "Antidetonante": "EGR refrigerada por líquido",
+      "Potencia": "75 kW (101 hp) @ 5200 rpm",
+      "Torque": "135 Nm @ 4000 rpm"
+    },
+    "description": "Motor de gasolina diseñado específicamente para sistemas híbridos de la plataforma DE-i. Opera en ciclo Atkinson variable, donde la ECU ajusta continuamente el cierre de válvulas de admisión mediante el sistema DVVT.",
+    "related_chapters": [
+      2,
+      11,
+      14,
+      21,
+      24
+    ]
+  },
+  {
+    "id": "TZ220XYL",
+    "name": "Motor Eléctrico de Tracción",
+    "type": "Motor Síncrono de Imanes Permanentes (PMSM)",
+    "manufacturer": "SERES OEM (Código TZ220XYL probable)",
+    "status": "🟡 Muy probable",
+    "confidence": 85,
+    "specs": {
+      "Potencia Máxima": "130 kW (174 hp)",
+      "Torque Máximo": "300 Nm",
+      "Refrigeración": "Aceite integrado",
+      "Voltaje Nominal": "384 V"
+    },
+    "description": "Motor de tracción eléctrica principal del vehículo. Se encarga de mover el vehículo en modo puramente eléctrico, modo híbrido serie y modo híbrido paralelo de alta demanda.",
+    "related_chapters": [
+      3,
+      18,
+      23,
+      24
+    ]
+  },
+  {
+    "id": "DHT",
+    "name": "Transmisión Híbrida DHT",
+    "type": "Dedicated Hybrid Transmission (E-CVT)",
+    "manufacturer": "SERES / FENGON",
+    "status": "🟢 Confirmado",
+    "confidence": 95,
+    "specs": {
+      "Tipo": "Transmisión mono-marcha multi-modo con embrague de acoplamiento directo",
+      "Modos de acople": "Eléctrico puro, Híbrido Serie (generador), Híbrido Paralelo (térmico directo), Regenerativo"
+    },
+    "description": "Caja híbrida dedicada que gestiona la combinación de potencia del motor térmico y los motores eléctricos. Utiliza un embrague húmedo multidisco controlado electrohidráulicamente para acoplar el motor térmico directamente a las ruedas en altas velocidades.",
+    "related_chapters": [
+      4,
+      19,
+      24
+    ]
+  },
+  {
+    "id": "HV_BATTERY",
+    "name": "Batería de Alta Tensión (HV Battery)",
+    "type": "Batería de Fosfato de Hierro y Litio (LFP)",
+    "manufacturer": "Gotion High-Tech / CATL (por confirmar)",
+    "status": "🟢 Confirmado",
+    "confidence": 95,
+    "specs": {
+      "Capacidad Total": "18.4 kWh (útil ~17.5 kWh)",
+      "Voltaje Nominal": "384 V",
+      "Configuración": "Celdas prismáticas LFP",
+      "Refrigeración": "Placa de refrigeración líquida activa (chiller integrado)",
+      "Autonomía eléctrica": "100 km (ciclo CLTC)"
+    },
+    "description": "Paquete de baterías principal situado en los bajos del chasis. Alimenta al motor de tracción y se recarga mediante frenado regenerativo, el motor térmico (generador) o toma de corriente externa.",
+    "related_chapters": [
+      7,
+      8,
+      10,
+      23
+    ]
+  },
+  {
+    "id": "PCU",
+    "name": "Power Control Unit (PCU)",
+    "type": "Módulo de Electrónica de Potencia",
+    "manufacturer": "SERES OEM / Huawei Eco-System",
+    "status": "🟢 Confirmado",
+    "confidence": 96,
+    "specs": {
+      "Componentes": "Inversor de tracción + Inversor de generador + Convertidor DC/DC de 12V",
+      "Refrigeración": "Líquida dedicada (circuito de baja temperatura)"
+    },
+    "description": "La unidad que gestiona la energía de alta tensión. Integra los inversores para controlar la velocidad y el torque de los motores eléctricos y el convertidor DC-DC para cargar la batería auxiliar de 12V.",
+    "related_chapters": [
+      9,
+      22,
+      23
+    ]
+  }
+]

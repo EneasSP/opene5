@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenE5 - Manual Técnico de Ingeniería</title>
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+  
+  <!-- marked.js for dynamic Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Mobile Navigation Bar -->
+    <header class="mobile-header">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+        <i data-lucide="menu"></i>
+      </button>
+      <div class="mobile-brand">
+        <span class="brand-title">OpenE5</span>
+        <span class="badge badge-alpha">v4.0 Alpha</span>
+      </div>
+      <div class="spacer"></div>
+    </header>
+
+    <!-- Sidebar / Left Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="brand">
+          <i data-lucide="shield-check" class="brand-icon"></i>
+          <div>
+            <h1 class="brand-name">OpenE5</h1>
+            <span class="brand-subtitle">Manual de Ingeniería</span>
+          </div>
+        </div>
+        <span class="badge badge-alpha">v4.0 Alpha</span>
+      </div>
+
+      <!-- Search Section -->
+      <div class="search-container">
+        <div class="search-box">
+          <i data-lucide="search" class="search-icon"></i>
+          <input type="text" id="global-search" placeholder="Buscar capítulos, siglas o componentes..." autocomplete="off">
+          <button id="clear-search" class="clear-search-btn" style="display: none;">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav class="sidebar-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#inicio" class="nav-link active" data-view="inicio">
+              <i data-lucide="home"></i>
+              <span>Inicio</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="#componentes" class="nav-link" data-view="componentes">
+              <i data-lucide="cpu"></i>
+              <span>Componentes</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="#investigacion" class="nav-link" data-view="investigacion">
+              <i data-lucide="git-branch"></i>
+              <span>Línea de Tiempo</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="#glosario" class="nav-link" data-view="glosario">
+              <i data-lucide="book-open"></i>
+              <span>Glosario</span>
+            </a>
+          </li>
+          
+          <li class="nav-divider">Capítulos del Manual</li>
+          
+          <li>
+            <div class="manual-chapters-container">
+              <ul class="chapters-list" id="sidebar-chapters-list">
+                <!-- Chapters dynamically loaded here -->
+                <li class="loading-placeholder">Cargando capítulos...</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <p class="footer-title">DFSK E5 Plus / Landian E5</p>
+        <p class="footer-subtitle">Proyecto OpenE5 • 2026</p>
+      </div>
+    </aside>
+
+    <!-- Overlay for closing mobile sidebar -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Top Bar (Desktop only) -->
+      <header class="top-bar">
+        <div class="view-title-container">
+          <h2 id="current-view-title" class="view-title">Cargando...</h2>
+        </div>
+        <div class="vehicle-indicator">
+          <span class="status-indicator-dot online"></span>
+          <span class="indicator-text">DFSK E5 Plus Híbrido</span>
+        </div>
+      </header>
+
+      <!-- Content Container -->
+      <div class="content-viewport" id="content-viewport">
+        <!-- Rendered views will appear here -->
+        <div class="view-loading">
+          <div class="spinner"></div>
+          <p>Cargando plataforma OpenE5...</p>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Shared Glossary Tooltip Component -->
+  <div class="glossary-tooltip" id="glossary-tooltip" role="tooltip">
+    <div class="tooltip-term" id="tooltip-term">Term</div>
+    <div class="tooltip-definition" id="tooltip-definition">Definition</div>
+    <div class="tooltip-action">Click para ver en glosario <i data-lucide="arrow-right"></i></div>
+  </div>
+
+  <!-- Core App Logic -->
+  <script src="js/app.js"></script>
+</body>
+</html>
